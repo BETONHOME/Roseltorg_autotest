@@ -80,6 +80,9 @@ class RoseltorgTestCest
         $I->comment("Появилась страница с предупрждением");
         $I->wait(2);
 
+        $I->executeJS("window.scrollBy(0, 500);");
+        $I->wait(1);
+
         //Нажатие кнопки "Продолжить работу"
         $I->click('//a[normalize-space()="Продолжить работу"]');
         $I->comment("Нажал на 'Продолжить работу'");

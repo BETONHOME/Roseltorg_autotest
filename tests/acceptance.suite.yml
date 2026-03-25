@@ -9,7 +9,7 @@ modules:
         - WebDriver:
             url: https://www.roseltorg.ru/
             browser: chrome
-            window_size: 2560x1440
+            window_size: 1920x1080
             wait: 10
             host: localhost
             port: 4444
